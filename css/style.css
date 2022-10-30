@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #fff;
+    background: #f5f7fa;
+    background-color: rgb(170, 198, 240);
 }
 
 /* maine container */
@@ -10,7 +11,7 @@ body {
     width: 1200px;
     background-color: #ffff;
     margin: 40px auto;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 2px 73px 5px rgba(18, 103, 230, 0.86);
 }
 .my-content-title{
     font-style: normal;
@@ -23,7 +24,7 @@ body {
 
 /*  maine conteiner section */
 .main-container-sections {
-padding: 100px 90px ;
+padding: 20px 90px ;
 }
 
 /* about me sections */
@@ -31,27 +32,31 @@ padding: 100px 90px ;
     margin-bottom: 40px;  
 }
 .about-me{
+    font-family: "Lato", sans-serif;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 17px;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
     color: #000000;
-    margin-bottom: 20px;
 }
 .about-me-name{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 55px;
-    color: #000000;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 89px;
+    font-family: "Satisfy", cursive;
     margin-bottom: 25px;
+    text-shadow: 1px 1px 1px #FB6D3A,
+            2px 2px 1px #FB6D3A;
 }
 .about-me-text{
-    width: 400px;
+    width: 600px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+    text-align: justify;
+    text-indent: 1.5em;
     color: #595959;
 }
 
@@ -163,9 +168,16 @@ padding: 100px 90px ;
 
 /* sidebar-sections */
 .sidebar-sections {
-    background-color: #1E2939;
+    background-color:#263957;
     width: 370px;
-    padding: 40px 0px;
+    padding: 30px 0px;
+}
+
+.photo {
+    border-radius: 50%;
+    display: block;
+    margin-left: 11px;
+
 }
 .contact-sections,
 .tech-skills-sections,
@@ -194,8 +206,17 @@ padding: 100px 90px ;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #575F6B;
+    color: #656d78;
     margin-left: 10px;
+}
+.contact-sections-link:hover {
+    color: rgba(14, 50, 253, 0.938);
+}
+.gmail {
+    margin-left: 25px;
+}
+.tel {
+    color: #ffffff; 
 }
 /* tech skills sections */
 /* soft Skills sections */
