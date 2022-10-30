@@ -3,7 +3,13 @@ body {
     background: #f5f7fa;
     background-color: rgb(170, 198, 240);
 }
-
+h3 {
+    margin: 0;
+}
+ol{
+    margin: 0;
+    padding: 0;
+}
 /* maine container */
 .main-container {
     display: flex;
@@ -29,7 +35,7 @@ padding: 20px 90px ;
 
 /* about me sections */
 .about-me-section{
-    margin-bottom: 40px;  
+    margin-bottom: 20px;  
 }
 .about-me{
     font-family: "Lato", sans-serif;
@@ -62,7 +68,10 @@ padding: 20px 90px ;
 
 /* my projects sections */
 .my-projects-sections{
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+}
+.my-projects-sections--networks{
+    margin-bottom: 20px;
 }
 .my-projects-list{
     padding-left: 17px;
@@ -76,6 +85,7 @@ padding: 20px 90px ;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+    margin-left: 100px;
     color: #595959;
 }
 .my-projects-text{
